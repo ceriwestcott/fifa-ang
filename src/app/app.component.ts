@@ -1,6 +1,6 @@
 import { Component, Inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { FifaService } from './services/fifa.service';
+import { FifaService } from './service/fifa.service';
 import { AsyncPipe, JsonPipe, NgIf } from '@angular/common';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NavigationComponent } from './navigation/navigation.component';
